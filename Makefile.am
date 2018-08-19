@@ -1,5 +1,11 @@
 EXTRA_DIST = \
 	$(DATA) \
+	debian/changelog \
+	debian/compat \
+	debian/control \
+	debian/copyright \
+	debian/rules \
+	debian/source/
 	$(END_OF_LINE)
 
 bin_SCRIPTS = \
