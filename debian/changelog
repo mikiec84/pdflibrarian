@@ -1,3 +1,9 @@
+pdflibrarian (0.2-1) bionic; urgency=low
+
+  * 0.2 release
+
+ -- Karl Wette <karl.wette@gmail.com>  Wed, 26 Sep 2018 13:56:02 +1000
+
 pdflibrarian (0.1.1-1) bionic; urgency=low
 
   * Fixes to ./configure.ac
