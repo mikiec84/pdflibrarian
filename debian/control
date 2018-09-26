@@ -1,0 +1,15 @@
+Source: pdflibrarian
+Section: tex
+Priority: optional
+Maintainer: Karl Wette <karl.wette@gmail.com>
+Build-Depends: debhelper (>= 10), perl-base, libcam-pdf-perl, libcapture-tiny-perl, libconfig-simple-perl, libfile-basedir-perl, libfile-mimeinfo-perl, libjson-perl, libwww-perl, libhttp-message-perl, libpdf-api2-perl, libparallel-iterator-perl, libsys-cpu-perl, libtext-bibtex-perl, libtext-unidecode-perl, liburi-perl, libwx-perl, libxml-libxslt-perl, libxml-libxslt-perl
+Standards-Version: 4.1.2
+Homepage: https://github.com/kwwette/pdflibrarian
+
+Package: pdflibrarian
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, perl-base, libcam-pdf-perl, libcapture-tiny-perl, libconfig-simple-perl, libfile-basedir-perl, libfile-mimeinfo-perl, libjson-perl, libwww-perl, libhttp-message-perl, libpdf-api2-perl, libparallel-iterator-perl, libsys-cpu-perl, libtext-bibtex-perl, libtext-unidecode-perl, liburi-perl, libwx-perl, libxml-libxslt-perl, libxml-libxslt-perl
+Description: Manage academic paper PDFs with embedded BibTeX.
+ PDF Librarian manages a library of academic papers in PDF format with
+ embedded BibTeX metadata.
+
