@@ -1,3 +1,9 @@
+pdflibrarian (0.2.1-1) bionic; urgency=low
+
+  * 0.2.1 release
+
+ -- Karl Wette <karl.wette@gmail.com>  Wed, 26 Sep 2018 14:37:56 +1000
+
 pdflibrarian (0.2-1) bionic; urgency=low
 
   * 0.2 release
